@@ -1,0 +1,123 @@
+{
+	"info": {
+		"_postman_id": "4ec55ec9-f211-4210-bec8-9cfb02fa6843",
+		"name": "hallbooking",
+		"description": "**HallBooking API Description:**\n\nThe HallBooking API is a powerful tool for managing and facilitating hall reservations. Designed for simplicity and efficiency, this API allows seamless integration into any application or platform. With a user-friendly interface and robust functionalities, it empowers users to effortlessly book and manage hall spaces for various events.\n\n**Key Features:**\n\n1. **User Authentication:** Secure access with user authentication ensures data privacy.\n2. **Hall Availability:** Real-time information on hall availability for easy scheduling.\n3. **Booking Management:** Intuitive endpoints for creating, updating, and canceling bookings.\n4. **User Feedback:** Capture user feedback and ratings for each booking.\n5. **Search and Filters:** Flexible search options and filters for customized inquiries.\n6. **Notifications:** Instant notifications for booking confirmations, updates, and cancellations.\n7. **Payment Integration:** Seamlessly integrate payment gateways for a frictionless booking experience.\n    \n\n**Getting Started:**\n\n1. Obtain API key by registering on the platform.\n2. Use API endpoints for hall availability, booking, and management.\n3. Explore documentation for comprehensive details on each endpoint.\n4. Leverage webhooks for real-time updates on booking status changes.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31772491",
+		"_collection_link": "https://www.postman.com/security-architect-52337667/workspace/hallbooking/collection/31772491-4ec55ec9-f211-4210-bec8-9cfb02fa6843?action=share&source=collection_link&creator=31772491"
+	},
+	"item": [
+		{
+			"name": "all booked room details",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8000/hallbooking/roomlist",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"hallbooking",
+						"roomlist"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "creating a room",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8000/hallbooking/createroom",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"hallbooking",
+						"createroom"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Booking a room",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/hallbooking/bookingroom",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"hallbooking",
+						"bookingroom"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Full customer details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/hallbooking/customerdetail",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"hallbooking",
+						"customerdetail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "all book customer details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/hallbooking/customerlist",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"hallbooking",
+						"customerlist"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
