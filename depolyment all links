@@ -1,0 +1,21 @@
+1./full customer details
+//Endpoint - http://localhost:8000/hallbooking/customerdetail
+//Deplayed URL - https://hall-booking-api-y7uk.onrender.com/hallbooking/customerdetail
+
+2.//all booked customer details
+//Endpoint - http://localhost:8000/hallbooking/customerlist
+//Deplayed URL - https://hall-booking-api-y7uk.onrender.com/hallbooking/customerlist
+
+3.//all booked room details
+//Endpoint - http://localhost:8000/hallbooking/roomlist
+//Deplayed URL - https://hall-booking-api-y7uk.onrender.com/hallbooking/roomlist
+
+
+4.//Creating a room
+//Endpoint - http://localhost:8000/hallbooking/createroom
+//Deplayed URL - https://hall-booking-api-y7uk.onrender.com/hallbooking/createroom
+
+
+5.//Booking a room
+//Endpoint - http://localhost:8000/hallbooking/bookingroom
+//Deplayed URL - https://hall-booking-api-y7uk.onrender.com/hallbooking/bookingroom
